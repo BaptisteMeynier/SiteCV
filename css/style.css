@@ -1,0 +1,98 @@
+body
+{
+    margin: 0;
+    background-color: #9EB8EC;
+
+}
+
+h1
+{
+	padding:20px;
+	font-family:"Park Lane NF";
+	font-size:3em;
+}
+
+section
+{
+	text-align: center;
+}
+section > p
+{
+	font-size:1.5em;
+}
+
+.main
+{
+	width: 100%;
+}
+
+#top
+{
+    width: 100%;
+    height: 5px;
+    background-color: #4565E5;
+}
+
+#intitule
+{
+    margin-top : 70px;
+    width: 100%;
+    height: 150px;
+    background-color: #4565E5;
+}
+
+#logo
+{
+    width:100%;
+    height: 250px;
+    position: absolute;
+    top:130px;
+    text-align: center;
+}
+
+.titreSection
+{
+	margin:0;
+}
+
+.sectionBlanche
+{
+    background-color: #FFF2B0;
+    width:100%;
+    height: 100%;
+}
+
+.sectionBleue
+{
+    background-color: #4565E5;
+    width:100%;
+    height: 100%;
+}
+
+.sectionBlanche > h1
+{
+	color:#4565E5;
+}
+
+.sectionBleue > h1
+{
+	color:#FFF2B0;
+}	
+
+
+#situationActuelle
+{
+	
+}
+
+#experiences
+{
+	background-color: #4565E5;
+	
+}
+
+#experiences > h1
+{
+	color:#F7F0DA;
+}
+
