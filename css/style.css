@@ -2,36 +2,76 @@ body
 {
     margin: 0;
     background-color: #9EB8EC;
-
-}
-
-h1
-{
-	padding:20px;
-	font-family:"Park Lane NF";
-	font-size:3em;
-}
-
-section
-{
-	text-align: center;
-}
-section > p
-{
-	font-size:1.5em;
 }
 
 .main
 {
-	width: 100%;
+    width: 100%;
 }
 
+section
+{
+    text-align: center;
+}
+
+
+/*Page d accueil :*/
 #top
 {
     width: 100%;
     height: 5px;
     background-color: #4565E5;
 }
+
+#banniereCurriculumVitae
+{
+    height:150px;
+    width:100%;
+    margin-top:5%;
+}
+
+
+#logoSite
+{
+    top:20%;
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+    height: 250px;
+}
+
+#posteOccupe
+{
+    margin-top:15%;
+    width: 400px;
+}
+
+#piedAccueil
+{
+    background-color: #FFF2B0;
+    margin:-5px;
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+
+h1
+{
+    padding:20px;
+    font-family:"Park Lane NF";
+    font-size:3em;
+}
+
+
+section > p
+{
+    font-size:1.5em;
+}
+
+
 
 #intitule
 {
@@ -41,18 +81,10 @@ section > p
     background-color: #4565E5;
 }
 
-#logo
-{
-    width:100%;
-    height: 250px;
-    position: absolute;
-    top:130px;
-    text-align: center;
-}
 
 .titreSection
 {
-	margin:0;
+    margin:0;
 }
 
 .sectionBlanche
@@ -71,28 +103,28 @@ section > p
 
 .sectionBlanche > h1
 {
-	color:#4565E5;
+    color:#4565E5;
 }
 
 .sectionBleue > h1
 {
-	color:#FFF2B0;
+    color:#FFF2B0;
 }	
 
 
 #situationActuelle
 {
-	
+
 }
 
 #experiences
 {
-	background-color: #4565E5;
-	
+    background-color: #4565E5;
+
 }
 
 #experiences > h1
 {
-	color:#F7F0DA;
+    color:#F7F0DA;
 }
 

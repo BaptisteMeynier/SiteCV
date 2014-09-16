@@ -19,7 +19,7 @@ $(".main").onepage_scroll({
 */
 
   $(document).ready(function(){
-      $(".pagePrincipale").onepage_scroll({
+      $(".mainPage").onepage_scroll({
         sectionContainer: "section",
         responsiveFallback: 600,
         loop: true
