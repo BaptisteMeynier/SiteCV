@@ -7,15 +7,26 @@
         <meta name="keywords" content="Developement java webdesign SS2I CV code php">
         <meta name="author" content="Baptiste Meynier" >
 
+        <!-- Inclusion Globale -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="js/modernizr.custom.js"></script>
 
         <!-- Scrolling vertical-->
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
         <link rel='stylesheet' type='text/css' href='css/onepage-scroll.css' >
+
+        <!-- Formulaire d envoi de mail -->
+        <link rel="stylesheet" type="text/css" href="css/formDefault.css" />
+        <link rel="stylesheet" type="text/css" href="css/formComponent.css" />
+
+        <!-- Boutons -->
+        <link rel="stylesheet" type="text/css" href="css/buttonDefault.css" />
+        <link rel="stylesheet" type="text/css" href="css/buttonComponent.css" />
 
         <!-- Implementation perso -->
         <link rel=stylesheet type="text/css" href="css/style.css">
         <script type="text/javascript" src="js/javascript.js"></script>
+
     </head>
     <body>
         <div class="mainPage">
@@ -29,26 +40,39 @@
             </section>
 
 
-            <section id="situationActuelle" class="sectionBleue">
+            <section id="situationActuelle" class="sectionBlanche">
                 <h1 class="titreSection" >Situation Actuelle</h1>
                 <img height="70%" width="70%" src="ressources/loiret.svg" alt="Forme du Loiret" />
             </section>
-            <section id="diplomes" class="sectionBlanche">
+            <section id="diplomes" class="sectionBleue">
                 <h1 class="titreSection">Diplomes</h1>
             </section>
-            <section id="experiences" class="sectionBleue">
+            <section id="experiences" class="sectionBlanche">
                 <h1 class="titreSection">Experiences</h1>
 
             </section>
-            <section id="competences" class="sectionBlanche">
+            <section id="competences" class="sectionBleue">
                 <h1 class="titreSection">Competences</h1>
             </section>
-            <section id="interets" class="sectionBleue">
+            <section id="interets" class="sectionBlanche">
                 <h1 class="titreSection">Interets</h1>
             </section>
-            <section id="contacts" class="sectionBlanche">
-                <h1 class="titreSection">Contacts</h1>
+            <div class="container">
+            <section id="contacts" class="sectionBleue">
+                <h1 class="titreSection">Contactez moi</h1>
+                <div id="formulaireEnvoiMail">
+                    <form id="formulaireEnvoiMail" class="cbp-mc-form">
+                        <input type="text" id="email" name="email" placeholder="Votre adresse mail">
+                        <textarea id="comments" name="comments" placeholder="Votre message"></textarea>
+                        <!--div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Envoyer courriel" /></div-->
+
+                    </form>
+                </div>
+                 <p>
+                    <button class="btn btn-1 btn-1e" value="Envoyer courriel">Envoyer courriel</button>
+                </p>
             </section>
+                </div>
         </div>
     </body>
 </html>
