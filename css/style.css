@@ -141,17 +141,9 @@ section > p
 /* Page contact */
 #formulaireEnvoiMail
 {
-    margin-top: 5%;
+
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-}
-
-#piedContact
-{
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    bottom: 0;
 }
 
