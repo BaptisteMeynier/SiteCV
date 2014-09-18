@@ -62,17 +62,17 @@
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color: #10689a;
+    color: #403B3C/*#10689a*/;
     font-style: italic;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #10689a;
+    color: #403B3C/*#10689a*/;
     font-style: italic;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #10689a;
+    color: #403B3C/*#10689a*/;
     font-style: italic;
 }
 
