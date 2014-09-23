@@ -4,7 +4,7 @@
         <title>Baptiste Meynier</title>
 
         <meta name="description" content="Baptiste Meynier CV" >
-        <meta name="keywords" content="Developement java webdesign SS2I CV code php">
+        <meta name="keywords" content="Baptiste Meynier Developement java webdesign SS2I CV code php">
         <meta name="author" content="Baptiste Meynier" >
 
         <!-- Inclusion Globale -->
@@ -14,6 +14,14 @@
         <!-- Scrolling vertical-->
         <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
         <link rel='stylesheet' type='text/css' href='css/onepage-scroll.css' >
+
+        <!-- Jparallax -->
+        <script type="text/javascript" src="js/jquery.parallax.js"></script>
+        <link rel='stylesheet' type='text/css' href='css/jquery.parallax.css' >
+
+        <!-- Navigation Horizontale -->
+        <link rel="stylesheet" type="text/css" href="css/navigationComponent.css" />
+
 
         <!-- Formulaire d envoi de mail -->
         <link rel="stylesheet" type="text/css" href="css/formDefault.css" />
@@ -35,43 +43,74 @@
                 <img id="banniereCurriculumVitae" src="ressources/banniereCurriculumVitae.svg" alt="Banniere Curriculum Vitae." />
                 <img  id="logoSite"src="ressources/logoSite.svg" alt="Logo Baptiste Meynier Curriculum Vitae." />
                 <img id="posteOccupe" src="ressources/posteOccupe.svg" alt="Poste occupe" />
-            </section>
+                <!-- DEBUT test Parallax -->
 
+                <div class="parallax-viewport" id="parallax">
+
+                    <!-- parallax layers -->
+                    <div class="parallax-layer" style="width:920px; height:274px;">
+                        <img src="ressources/parallaxeTroisiemePlan.svg" alt="" />
+                    </div>
+                    <div class="parallax-layer" style="width:1100px; height:284px;">
+                        <img src="ressources/parallaxeSecondPlan.svg" alt="" style="position:absolute; top:40px; left:0;" />
+                    </div>
+                    <div class="parallax-layer" style="width:1360px; height:320px;">
+                        <img src="ressources/parallaxePremierPlan.svg" alt="" style="position:absolute; top:96px; left:0;"/>
+                    </div>
+
+                </div>
+                <!-- FIN test Parallax -->
+
+            </section>
             <section id="situationActuelle" class="sectionBlanche">
-                <h1 class="titreSection" >Situation Actuelle</h1>
+                <img class="titreSection" src="ressources/titreSectionSituationActuelle.svg" alt="Situation Actuelle." />
                 <img height="70%" width="70%" src="ressources/loiret.svg" alt="Forme du Loiret" />
             </section>
             <section id="diplomes" class="sectionBleue">
-                <h1 class="titreSection">Diplomes</h1>
+                <img class="titreSection" src="ressources/titreSectionDiplomes.svg" alt="Diplomes" />
             </section>
-            <section id="experiences" class="sectionBlanche">
-                <h1 class="titreSection">Experiences</h1>
+            <section id="experiences color-1" class="sectionBlanche">
+                <img class="titreSection" src="ressources/titreSectionExperiences.svg" alt="Experiences" />
+                <h2>La Poste Courrier</h2>
+                <nav class="nav-fillpath">
+                    <!--a class="prev" href="/item1">
+<span class="icon-wrap"></span>
+<h3><strong>La Poste Courrier</strong> Fleming</h3>
+</a-->
+                    BLABLABLABLABLABLABLABLABLABLABLABLA<br>BLABLABLABLABLABLA<br>BLABLABLABLABLABLABLABLABLABLA<br>BLABLABLABLABLABLABLABLA<br>BLABLABLABLABLABLABLABLABLABLA<br>BLABLABLABLABLABLABLABLABLA<br>BLABLABLABLABLABLA<br>BLABLABLABLABLABLABLA<br>BLABLABLABLABLABLABLABLABLABLABLABLA
+                    <a class="next" href="/item2">
+                        <span class="icon-wrap"></span>
+                        <h3><strong>RTE</strong></h3>
+                    </a>
+                </nav>
+            </section>
 
             </section>
-            <section id="competences" class="sectionBleue">
-                <h1 class="titreSection">Competences</h1>
-            </section>
-            <section id="interets" class="sectionBlanche">
-                <h1 class="titreSection">Interets</h1>
-            </section>
-            <div class="container">
-            <section id="contacts" class="sectionBleue">
-                <h1 class="titreSection">Contactez moi</h1>
-                <br><br><br>
-                <div id="formulaireEnvoiMail">
-                    <form id="formulaireEnvoiMail" class="cbp-mc-form">
-                        <input type="text" id="email" name="email" placeholder="Votre adresse mail">
-                        <br>
-                        <textarea id="comments" name="comments" placeholder="Votre message"></textarea>
-                        <!--div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Envoyer courriel" /></div-->
+        <section id="competences" class="sectionBleue">
+            <img class="titreSection" src="ressources/titreSectionCompetences.svg" alt="Competences" />
+        </section>
+        <section id="interets" class="sectionBlanche">
+            <img class="titreSection" src="ressources/titreSectionInterets.svg" alt="Interets" />
+        </section>
+        <section id="contacts" class="sectionBleue">
+            <img class="titreSection" src="ressources/titreSectionContact.svg" alt="Contactez moi !" />
+            <div id="formulaireEnvoiMail">
+                <form id="formulaireEnvoiMail" class="cbp-mc-form">
+                    <input type="text" id="email" name="email" placeholder="Votre adresse mail">
+                    <br>
+                    <textarea id="comments" name="comments" placeholder="Votre message"></textarea>
+                    <!--div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Envoyer courriel" /></div-->
+                    <div class="container">
+                        <div class="leBouton">
+                            <p>
+                                <button class="btn btn-1 btn-1e" value="Envoyer courriel">Envoyer courriel</button>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-                    </form>
-                </div>
-                 <p>
-                    <button class="btn btn-1 btn-1e" value="Envoyer courriel">Envoyer courriel</button>
-                </p>
-            </section>
-                </div>
+        </section>
         </div>
     </body>
 </html>

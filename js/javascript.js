@@ -18,10 +18,25 @@ $(".main").onepage_scroll({
 });
 */
 
-  $(document).ready(function(){
-      $(".mainPage").onepage_scroll({
+$(document).ready(function(){
+    $(".mainPage").onepage_scroll({
         sectionContainer: "section",
         responsiveFallback: 600,
         loop: true
-      });
+    });
 });
+/*
+
+jQuery(document).ready(function(){
+    // Declare parallax on layers
+    jQuery('.parallax-layer').parallax({
+        mouseport: jQuery("#port")
+    });
+});*/
+
+  jQuery(document).ready(function(){
+    jQuery('#parallax .parallax-layer')
+    .parallax({
+      mouseport: jQuery('#parallax')
+    });
+  });

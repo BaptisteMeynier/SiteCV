@@ -128,21 +128,21 @@ a:active {
 	position: relative;
 }
 
-.container > section {
+.container > .leBouton {
 	margin: 0 auto;
 	padding: 5em 3em;
 	text-align: center;
 	color: #fff;
 }
 
-.container > section p {
+.container > .leBouton p {
 	position: relative;
 	margin: 0;
 	padding: 1em;
 	z-index: 1;
 }
 
-.container > section p.text {
+.container > .leBouton p.text {
 	font-size: 1.4em;
 }
 
