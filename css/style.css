@@ -51,6 +51,7 @@ section
 #banniereCurriculumVitae
 {
     position: absolute;
+    z-index: 1;
     top:8%;
     left:0;
     width:100%;
@@ -60,6 +61,7 @@ section
 #logoSite
 {
     position:absolute;
+    z-index: 2;
     top:18%;
     left:0;
     right:0;
@@ -71,6 +73,7 @@ section
 #posteOccupe
 {
     position:absolute;
+    z-index: 1;
     top:55%;
     left:0;
     right:0;

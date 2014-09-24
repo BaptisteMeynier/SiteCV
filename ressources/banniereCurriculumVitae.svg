@@ -7,7 +7,6 @@
      viewbox="0 0 1600 150"
      height="150"
      width="1600"
-
      >
     <rect
           height="100%"
@@ -18,6 +17,7 @@
     <text
           x="50%"
           y="50%"
+          font-size="150"
           style="
                  font-family:Onyx;
                  letter-spacing:40;
@@ -26,7 +26,6 @@
                  stroke: none;
                  alignment-baseline: central;
                  text-anchor:middle;
-                 font-size  : 150;
                  "
           >
         CURRICULUM VITAE
