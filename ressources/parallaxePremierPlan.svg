@@ -7,34 +7,49 @@
      height="745"
      viewbox="0 0 1052 745"
      >
+    <defs
+          id="defs10">
+        <filter
+
+                id="filter1"
+                x="-0.16625975"
+                width="1.3325195"
+                y="-0.16625976"
+                height="1.3325195">
+            <feGaussianBlur
+
+                            stdDeviation="9.9516139"
+                            id="feGaussianBlur3774" />
+        </filter>
+    </defs>
     <g
        groupmode="layer"
        id="layer3"
        label="premierPlan">
         <path
               type="arc"
-              style="opacity:0.65116278;fill:none;stroke:#2646b3;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:44;display:inline"
-              id="path2985-1-7-1-1-5-2-7-6-1-4"
-              cx="288.90363"
-              cy="273.3634"
-              rx="24.243662"
+              style="opacity:0.3;fill:white;display:inline;filter:url(#filter1)"
+
+              d="m 877.60455,282.20171 a 58.942917,58.942917 0 1 1 -117.88583,0 58.942917,58.942917 0 1 1 117.88583,0 z"
               ry="27.274118"
-              d="m 313.14729,273.3634 a 24.243662,27.274118 0 1 1 -48.48733,0 24.243662,27.274118 0 1 1 48.48733,0 z"
-              transform="matrix(1.8454475,0,0,1.6403979,337.59503,-134.65524)" />
+              rx="24.243662"
+              cy="273.3634"
+              cx="288.90363"
+              />
+        <path
+
+              d="m 382.18989,588.7287 a 45.18722,45.187218 0 0 1 -90.37444,0 45.18722,45.187218 0 1 1 90.37444,0 z"
+              ry="27.274118"
+              rx="24.243662"
+              cy="273.3634"
+              cx="288.90363"
+
+              style="opacity:0.2;fill:#ffffff;display:inline;filter:url(#filter1)"
+              type="arc" />
         <path
               type="arc"
-              style="opacity:0.65116278;fill:none;stroke:#2646b3;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:44;display:inline"
-              id="path2985-1-7-1-1-5-2-7-6-1-4-2"
-              cx="288.90363"
-              cy="273.3634"
-              rx="24.243662"
-              ry="27.274118"
-              d="m 313.14729,273.3634 a 24.243662,27.274118 0 1 1 -48.48733,0 24.243662,27.274118 0 1 1 48.48733,0 z"
-              transform="matrix(2.4163136,0,0,2.1478344,-294.02076,2.4018124)" />
-        <path
-              type="arc"
-              style="opacity:0.65116278;fill:none;stroke:#2646b3;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:44;display:inline"
-              id="path2985-1-7-1-1-5-2-7-6-1-4-2-3"
+              style="opacity:0.5;fill:white;display:inline;filter:url(#filter1)"
+
               cx="288.90363"
               cy="273.3634"
               rx="24.243662"
