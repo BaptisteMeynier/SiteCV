@@ -1,17 +1,17 @@
 
 @font-face {
-	font-family: 'Park Lane NF';
-	src:url('../fonts/Park Lane NF.ttf');
+    font-family: 'Park Lane NF';
+    src:url('../fonts/Park Lane NF.ttf');
 }
 
 @font-face {
-	font-family: 'Onyx';
-	src:url('../fonts/ufonts.com_onyx.ttf');
+    font-family: 'Onyx';
+    src:url('../fonts/ufonts.com_onyx.ttf');
 }
 
 @font-face {
-	font-family: 'Wolf in the City';
-	src:url('../fonts/Wolf in the City.ttf');
+    font-family: 'Wolf in the City';
+    src:url('../fonts/Wolf in the City.ttf');
 }
 
 body
@@ -41,6 +41,13 @@ section
 }
 
 /*Page d accueil :*/
+#accueil
+{
+    background-image: url(/ressources/fondEtoiles2.svg);
+    background-size: cover;
+}
+
+
 #top
 {
     width: 100%;
@@ -108,10 +115,10 @@ section > p
 
 #intitule
 {
-    margin-top : 70px;
-    width: 100%;
-    height: 150px;
-    background-color: #4565E5;
+margin-top : 70px;
+width: 100%;
+height: 150px;
+background-color: #4565E5;
 }
 
 */
@@ -136,7 +143,7 @@ section > p
 
 .sectionBlanche > h1
 {
-   /* color:#4565E5;*/
+    /* color:#4565E5;*/
 }
 
 .sectionBleue > h1
@@ -152,7 +159,7 @@ section > p
 
 .titreSection
 {
-      width:100%;
+    width:100%;
 }
 
 #experiences
