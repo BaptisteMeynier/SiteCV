@@ -22,6 +22,8 @@ $(document).ready(function(){
     $(".mainPage").onepage_scroll({
         sectionContainer: "section",
         responsiveFallback: 600,
+        animationTime: 700,
+        easing: "ease-in-out",
         loop: true
     });
 });

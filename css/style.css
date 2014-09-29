@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: 'Park Lane NF';
-    src:url('../fonts/Park Lane NF.ttf');
+    src:url('../fonts/Park Lane NF.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Onyx';
-    src:url('../fonts/ufonts.com_onyx.ttf');
+    src:url('../fonts/ufonts.com_onyx.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Wolf in the City';
-    src:url('../fonts/Wolf in the City.ttf');
+    src:url('../fonts/Wolf in the City.ttf') format('truetype');
 }
 
 body
@@ -41,10 +41,20 @@ section
 }
 
 /*Page d accueil :*/
-#accueil
+/*#accueil
 {
     background-image: url(/ressources/fondEtoiles2.svg);
     background-size: cover;
+}
+*/
+#accueil {
+  margin:0;
+  padding:0;
+  background: url(/ressources/fondEtoiles3.svg) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
 }
 
 

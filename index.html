@@ -15,6 +15,9 @@
         <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
         <link rel='stylesheet' type='text/css' href='css/onepage-scroll.css' >
 
+        <!-- Dot Navigation Style -->
+        <!--link rel='stylesheet' type='text/css' href='css/dotNavigationComponent.css' -->
+
         <!-- Jparallax -->
         <script type="text/javascript" src="js/jquery.parallax.js"></script>
         <link rel='stylesheet' type='text/css' href='css/jquery.parallax.css' >
@@ -38,47 +41,32 @@
     </head>
     <body>
         <div class="mainPage">
-            <section  id="accueil">
+            <section  id="accueil" name="Accueil">
                 <div id="top"> </div>
                 <img id="banniereCurriculumVitae" src="ressources/banniereCurriculumVitae.svg" alt="Banniere Curriculum Vitae." />
                 <img  id="logoSite"src="ressources/logoSite.svg" alt="Logo Baptiste Meynier Curriculum Vitae." />
                 <img id="posteOccupe" src="ressources/posteOccupe.svg" alt="Poste occupe" />
-                <!-- DEBUT test Parallax -->
-
-                <div class="parallax-viewport" id="parallax" style="top:8%">
-
-                    <!-- parallax layers -->
-                    <!--div class="parallax-layer" style="width:920px; height:274px;">
-<img src="ressources/parallaxeTroisiemePlan.svg" alt="" />
-</div>
-<div class="parallax-layer" style="width:1100px; height:284px;">
-<img src="ressources/parallaxeSecondPlan.svg" alt="" style="position:absolute; top:40px; left:0;" />
-</div>
-<div class="parallax-layer" style="width:1360px; height:320px;">
-<img src="ressources/parallaxePremierPlan.svg" alt="" style="position:absolute; top:96px; left:0;"/>
-</div-->
-                    <div class="parallax-layer" style="width:95%; height:95%;">
+                <!-- Parallax -->
+                <div class="parallax-viewport" id="parallax">
+                    <div class="parallax-layer" style="width:95%; height:95%;top:0px">
                         <img src="ressources/parallaxeTroisiemePlan.svg" alt="" />
                     </div>
-                    <div class="parallax-layer" style="width:80%; height:90%;">
+                    <div class="parallax-layer" style="width:80%; height:90%;top:0px">
                         <img src="ressources/parallaxeSecondPlan.svg" alt=""  />
                     </div>
-                    <div class="parallax-layer" style="width:70%; height:85%;z-index: 3;">
+                    <div class="parallax-layer" style="width:70%; height:85%;top:0px;z-index: 3;">
                         <img src="ressources/parallaxePremierPlan.svg" alt="" />
                     </div>
-
                 </div>
-                <!-- FIN test Parallax -->
-
             </section>
-            <section id="situationActuelle" class="sectionBlanche">
+            <section id="situationActuelle" class="sectionBlanche" name="Situation Actuelle">
                 <img class="titreSection" src="ressources/titreSectionSituationActuelle.svg" alt="Situation Actuelle." />
                 <img height="70%" width="70%" src="ressources/loiret.svg" alt="Forme du Loiret" />
             </section>
-            <section id="diplomes" class="sectionBleue">
+            <section id="diplomes" class="sectionBleue" name="Diplôme">
                 <img class="titreSection" src="ressources/titreSectionDiplomes.svg" alt="Diplomes" />
             </section>
-            <section id="experiences color-1" class="sectionBlanche">
+            <section id="experiences color-1" class="sectionBlanche" name="Expériences">
                 <img class="titreSection" src="ressources/titreSectionExperiences.svg" alt="Experiences" />
                 <h2>La Poste Courrier</h2>
                 <nav class="nav-fillpath">
@@ -95,13 +83,13 @@
             </section>
 
             </section>
-        <section id="competences" class="sectionBleue">
+        <section id="competences" class="sectionBleue" name="Compétences">
             <img class="titreSection" src="ressources/titreSectionCompetences.svg" alt="Competences" />
         </section>
-        <section id="interets" class="sectionBlanche">
+        <section id="interets" class="sectionBlanche" name="Intérets">
             <img class="titreSection" src="ressources/titreSectionInterets.svg" alt="Interets" />
         </section>
-        <section id="contacts" class="sectionBleue">
+        <section id="contacts" class="sectionBleue" name="Contacts">
             <img class="titreSection" src="ressources/titreSectionContact.svg" alt="Contactez moi !" />
             <div id="formulaireEnvoiMail">
                 <form id="formulaireEnvoiMail" class="cbp-mc-form">
@@ -118,7 +106,6 @@
                     </div>
                 </form>
             </div>
-
         </section>
         </div>
     </body>

@@ -21,12 +21,9 @@
           font-family="Onyx"
           alignment-baseline="central"
           text-anchor="middle"
-          style="
-                 letter-spacing:40;
-                 fill: white;
-                 opacity:0.5;
-                 stroke: none;
-                 "
+          letter-spacing="0.3em"
+          fill="white"
+          opacity="0.5"
           >
         CURRICULUM VITAE
     </text>
