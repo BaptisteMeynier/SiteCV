@@ -30,8 +30,8 @@ body, .onepage-wrapper, html {
 
 .onepage-pagination {
     position: absolute;
-    right: 10px;
-    top: 50%;
+    right: -40px;
+    top: 40%;
     z-index: 5;
     list-style: none;
     margin: 0;
@@ -39,10 +39,12 @@ body, .onepage-wrapper, html {
 }
 .onepage-pagination li {
     padding: 0;
+    vertical-align: middle;
     text-align: center;
 }
 
 .onepage-pagination li a {
+
     /*padding: 10px;*/
     /*width: 4px;
     height: 4px;*/
@@ -55,21 +57,21 @@ body, .onepage-wrapper, html {
     width: auto;
     height: auto;
     border-radius: 0;
-    color: black;
+    color: rgba(0,0,0,0);
     text-indent: 0;
     line-height: 1.5;
    /* opacity: 0;*/
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    -webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease, visibility 0s 0.3s ease;
-    transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s 0.3s ease;
+
 }
 
 .no-touch .onepage-pagination li:hover a,
 .onepage-pagination li.current a {
+    color: black;
     z-index: 100;
     /*visibility: visible;*/
-    opacity: 1;
+    /*opacity: 1;*/
    /* -webkit-transform: translateX(-50%) translateY(0%);
     transform: translateX(-50%) translateY(0%);*/
     -webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
@@ -81,15 +83,17 @@ body, .onepage-wrapper, html {
 }*/
 
 .onepage-pagination li:hover {
-    opacity: 1;
+    /*opacity: 1;*/
     z-index: 100;
 }
 
 .no-touch .onepage-pagination ul:hover li.current a {
+       /* color: rgba(0,0,0,1);*/
     opacity: 0.2;
 }
 
 .onepage-pagination ul li.current:hover a {
+   /* color: rgba(0,0,0,1);*/
     opacity: 1;
 }
 
@@ -100,7 +104,7 @@ body, .onepage-wrapper, html {
     opacity: 1;
     content: '';
     position: absolute;
-    bottom: 50%;
+    top: 50%;
     right:10px;
     width: 4px;
     height: 4px;
