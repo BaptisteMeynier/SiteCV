@@ -303,8 +303,9 @@
       else
         topPos = topPos + 100;
 
+
       if(settings.pagination == true) {
-        paginationList += "<li><a data-index='"+(i+1)+"' href='#" + (i+1) + "'>"+$(this).attr("name")+"</a></li>"
+        paginationList += "<li><span class='emplacementMenu' ><span class='labelMenu'>"+$(this).attr('name')+"</span></span><a data-index='"+(i+1)+"' href='#" + (i+1) + "'></a></li>"
       }
     });
 

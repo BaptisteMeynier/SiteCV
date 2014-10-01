@@ -18,6 +18,8 @@ $(".main").onepage_scroll({
 });
 */
 
+
+
 $(document).ready(function(){
     $(".mainPage").onepage_scroll({
         sectionContainer: "section",
@@ -26,6 +28,30 @@ $(document).ready(function(){
         easing: "ease-in-out",
         loop: true
     });
+
+    $.each(
+        $(".onepage-pagination li") , function(i)
+        {
+            $(this).hover
+            (
+                function()
+                {
+                    $(this).find(".labelMenu").addClass("apparition");
+
+                }, function() {
+                    $(this).find(".labelMenu").removeClass("apparition");
+                }
+
+            )
+        }
+    );
+
+    $('#parallax .parallax-layer')
+    .parallax({
+        mouseport: jQuery('#parallax')
+    });
+
+
 });
 /*
 
@@ -35,10 +61,10 @@ jQuery(document).ready(function(){
         mouseport: jQuery("#port")
     });
 });*/
-
-  jQuery(document).ready(function(){
+/*
+jQuery(document).ready(function(){
     jQuery('#parallax .parallax-layer')
     .parallax({
-      mouseport: jQuery('#parallax')
+        mouseport: jQuery('#parallax')
     });
-  });
+});*/
