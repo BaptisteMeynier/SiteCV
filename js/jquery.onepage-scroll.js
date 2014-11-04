@@ -364,8 +364,8 @@
     }
 
     if(settings.pagination == true)  {
-      $(".onepage-pagination li a").click(function (){
-        var page_index = $(this).data("index");
+      $(".onepage-pagination li").click(function (){
+        var page_index = $(this).find("a").data("index");
         el.moveTo(page_index);
       });
     }

@@ -98,6 +98,29 @@ section
     margin-right:auto;
     width: 25%;
 }
+
+#arrowDown
+{
+    position:absolute;
+    z-index: 4;
+    bottom:5%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50px;
+}
+
+#downArrow
+{
+    position:absolute;
+    z-index: 4;
+    bottom:5%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
 /*
 #piedAccueil
 {

@@ -52,6 +52,7 @@ $(document).ready(function(){
     });
 
 
+    $('#downArrow').click(function(){$(".mainPage").moveTo(new Number(2))});
 });
 /*
 
