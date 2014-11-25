@@ -12,6 +12,8 @@
 .loiret {
   stroke-dasharray: 1287;
   stroke-dashoffset: 1287;
+-webkit-animation-play-state: paused;
+animation-play-state: paused;
   animation: dash 3s linear forwards;
   -webkit-animation : dash 3s linear forwards;
 }
