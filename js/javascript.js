@@ -26,7 +26,7 @@ $(document).ready(function(){
         responsiveFallback: 600,
         animationTime: 700,
         easing: "ease-in-out",
-        loop: true
+        loop: false
     });
 
     $.each(
