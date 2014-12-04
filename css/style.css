@@ -309,11 +309,12 @@ background-color: #4565E5;
 
 .progressBar
 {
-        margin-left:auto;
+    margin-top: 2em;
+    margin-left:auto;
     margin-right:auto;
     left:0;
     right:0;
-
+    border-radius: 0.2em;
     height: 30px;
     width: 40%;
     background-color: black;
@@ -324,62 +325,83 @@ background-color: #4565E5;
 
 .progressBarInit
 {
+    opacity: 1;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: left;
+    color: black;
+    border-radius: 0.2em;
     width: 1%;
     height: 30px;
     background-color: #abf5d7;
     z-index: 2;
-    -webkit-transition: width 1s ease 2s;  /* For Safari 3.1 to 6.0 */
-    transition: width 1s ease 2s;
+    -webkit-transition: width 1s ease 1s;
+    transition: width 1s ease 1s;
 }
 
 #progressBarResult1
 {
-        background-color: #abf5d7;
-    height: 30px;
-    width: 30%;
+    width: 80%;
 }
 
 #progressBarResult2
 {
-        background-color: #abf5d7;
-    height: 30px;
-    width: 40%;
+    width: 60%;
 }
 
 #progressBarResult3
 {
-        background-color: #abf5d7;
-    height: 30px;
-    width: 50%;
+    width: 90%;
 }
 
 #progressBarResult4
 {
-        background-color: #abf5d7;
-    height: 30px;
     width: 60%;
 }
 
 #progressBarResult5
 {
-        background-color: #abf5d7;
-    height: 30px;
+    width: 50%;
+}
+
+
+/* Interets*/
+
+#interestsContainer
+{
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
     width: 70%;
+    bottom: 40%;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes displayGraph1 {
-    0%   {width: 1em; }
-    75%  {width: 20em;}
-    100% {width: 19em;}
+
+#interests .item
+{
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    width: 100px;
+    height: 100px;
+    display: block;
+    cursor: pointer;
+    background: #868CEB;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0.1em;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+#interests .item:hover{
+    background: blue;
 }
 
-/* Standard syntax */
-@keyframes displayGraph1 {
-    0%   {width: 1em; }
-    75%  {width: 20em;}
-    100% {width: 19em;}
-}
+
 
 /* Page contact */
 #formulaireEnvoiMail

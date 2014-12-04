@@ -224,11 +224,9 @@
                 $(".progressBar[name=3] > .progressBarInit").attr("id","progressBarResult3");
             $(".progressBar[name=4] > .progressBarInit").attr("id","progressBarResult4");
                 $(".progressBar[name=5] > .progressBarInit").attr("id","progressBarResult5");
-        }/*else{
-            $(".progressBar[name=1] > .progressBarResult1").toggleClass("progressBarInit");
-                $(".progressBar[name=2] > .progressBarResult2").toggleClass("progressBarInit");
-                $(".progressBar[name=3] > .progressBarResult3").toggleClass("progressBarInit");
-        }*/
+        }else{
+            $(".progressBar > .progressBarInit").removeAttr("id");
+        }
 
 
     }

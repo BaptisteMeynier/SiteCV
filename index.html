@@ -40,6 +40,10 @@
         <!-- creative links -->
         <link rel=stylesheet type="text/css" href="css/creativeLinkComponent.css"/>
 
+        <!-- Carousselle -->
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl.theme.css" rel="stylesheet">
         <!-- Implementation perso -->
         <link rel=stylesheet type="text/css" href="css/style.css"/>
         <script type="text/javascript" src="js/javascript.js"></script>
@@ -76,9 +80,9 @@
 
                 <!--img height="70%" width="70%" src="ressources/loiret.svg" alt="Forme du Loiret" /-->
                 <!--img id="tourEiffel" height="60%"  src="ressources/eiffel_tower.svg" alt="Paris" />
-                <span style="    font-size: 120px">+</span>
-                <img id="employeur"  width="25%" src="ressources/experisIT.svg" alt="employeur" /-->
-                 <img id="profil" src="ressources/profil.svg" alt="" />
+<span style="    font-size: 120px">+</span>
+<img id="employeur"  width="25%" src="ressources/experisIT.svg" alt="employeur" /-->
+                <img id="profil" src="ressources/profil.svg" alt="" />
             </section>
             <section id="experiences color-1" class="sectionBlanche" name="Exp&eacute;riences">
                 <img class="titreSection" src="ressources/titreSectionExperiences.svg" alt="Exp&eacute;riences" />
@@ -97,19 +101,32 @@
                 <a href="#" data-hover="Assemblage"><span>Bases de donn&eacute;es</span></a>
             </nav>
             <div id="charts">
-            <div class="progressBar" name="1"><div  class="progressBarInit" ></div></div>
-            <br/>
-            <div class="progressBar" name="2"><div class="progressBarInit" ></div></div>
-            <br/>
-            <div class="progressBar" name="3"><div  class="progressBarInit"></div></div>
-             <br/>
-            <div class="progressBar" name="4"><div  class="progressBarInit"></div></div>
-             <br/>
-            <div class="progressBar" name="5"><div  class="progressBarInit"></div></div>
-                </div>
+                <div class="progressBar" name="1"><div  class="progressBarInit" >Struts</div></div>
+
+                <div class="progressBar" name="2"><div class="progressBarInit" >GWT</div></div>
+
+                <div class="progressBar" name="3"><div  class="progressBarInit">JSF 2</div></div>
+
+                <div class="progressBar" name="4"><div  class="progressBarInit">Spring MVC</div></div>
+
+                <div class="progressBar" name="5"><div  class="progressBarInit" >AngularJs</div></div>
+            </div>
         </section>
         <section id="interets" class="sectionBlanche" name="Int&eacute;r&ecirc;ts">
             <img class="titreSection" src="ressources/titreSectionInterets.svg" alt="Int&ea cute;r&ecirc;ts" />
+
+            <div id="interestsContainer" >
+            <div id="interests" class="owl-carousel">
+                <div class="item"><h1>1</h1></div>
+                <div class="item"><h1>2</h1></div>
+                <div class="item"><h1>3</h1></div>
+                <div class="item"><h1>4</h1></div>
+                <div class="item"><h1>5</h1></div>
+                <div class="item"><h1>6</h1></div>
+            </div>
+</div>
+
+
         </section>
         <section id="contacts" class="sectionBleue" name="Contacts">
             <img class="titreSection" src="ressources/titreSectionContact.svg" alt="Contactez moi !" />
@@ -128,8 +145,8 @@
                     </div>
                 </form>
             </div>
-             <div id="footer" class="sectionBlanche">
-                </div>
+            <div id="footer" class="sectionBlanche">
+            </div>
         </section>
 
         </div>
