@@ -1,30 +1,62 @@
+
+@font-face {
+    font-family: 'Park Lane NF';
+    src:url('../fonts/Park Lane NF.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Onyx';
+    src:url('../fonts/ufonts.com_onyx.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Wolf in the City';
+    src:url('../fonts/Wolf_in_the_City.ttf') format('truetype');
+}
+
 body
 {
     margin: 0;
     background-color: #9EB8EC;
-
-}
-
-h1
-{
-	padding:20px;
-	font-family:"Park Lane NF";
-	font-size:3em;
-}
-
-section
-{
-	text-align: center;
-}
-section > p
-{
-	font-size:1.5em;
 }
 
 .main
 {
-	width: 100%;
+    width: 100%;
 }
+
+section
+{
+    text-align: center;
+}
+
+.fondBleu
+{
+    background-color: #9EB8EC;
+}
+
+.fondCreme
+{
+    background-color: #FFF2B0;
+}
+
+/*Page d accueil :*/
+/*#accueil
+{
+background-image: url(/ressources/fondEtoiles2.svg);
+background-size: cover;
+}
+*/
+#accueil {
+    margin:0;
+    padding:0;
+    background: url(./../ressources/fondEtoiles3.svg) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+}
+
 
 #top
 {
@@ -33,66 +65,357 @@ section > p
     background-color: #4565E5;
 }
 
+#banniereCurriculumVitae
+{
+    position: absolute;
+    z-index: 1;
+    top:8%;
+    left:0;
+    width:100%;
+}
+
+
+#logoSite
+{
+    position:absolute;
+    z-index: 2;
+    top:18%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 15%;
+}
+
+#posteOccupe
+{
+    position:absolute;
+    z-index: 1;
+    top:55%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 25%;
+}
+
+#arrowDown
+{
+    position:absolute;
+    z-index: 4;
+    bottom:5%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 5em;
+}
+
+#downArrow
+{
+    position:absolute;
+    z-index: 4;
+    bottom:5%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#arrow1
+{
+    position:absolute;
+    bottom:10px;
+    z-index: 4;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 2.5%;
+    /*width: 2.5em;*/
+}
+
+#arrow2
+{
+    position:absolute;
+    bottom:25px;
+    z-index: 4;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 3%;
+    /* width: 3em;*/
+}
+
+#arrow3
+{
+    position:absolute;
+    bottom:42.5px;
+    z-index: 4;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width:3.5%;
+    /* width: 3.5em;*/
+}
+
+
+/*DOwn Arrow*/
+@-webkit-keyframes clignote1 {
+    0%,10%,20%,40%,50%,60%,70%,80%,90%,100% {
+    }
+    30% {
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    }
+}
+
+@-webkit-keyframes clignote2 {
+    0%,10%,30%,40%,50%,60%,70%,80%,90%,100% {
+    }
+    20% {
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    }
+}
+
+
+@-webkit-keyframes clignote3 {
+    0%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+    }
+    10% {
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    }
+}
+
+.clignote1 {
+    -webkit-animation: clignote1 3s infinite;
+}
+
+.clignote2 {
+    -webkit-animation: clignote2 3s infinite;
+}
+
+.clignote3 {
+    -webkit-animation: clignote3 3s infinite;
+}
+
+#profil
+{
+    height: 80%;
+    bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    position:absolute;
+}
+
+/*
+#piedAccueil
+{
+background-color: #FFF2B0;
+margin:-5px;
+width:100%;
+height: 100%;
+text-align: center;
+}*/
+
+h1
+{
+    padding:20px;
+    font-family:"Wolf in the City";
+    font-size:3em;
+}
+
+
+section > p
+{
+    font-size:1.5em;
+}
+
+/*
+
 #intitule
 {
-    margin-top : 70px;
-    width: 100%;
-    height: 150px;
-    background-color: #4565E5;
+margin-top : 70px;
+width: 100%;
+height: 150px;
+background-color: #4565E5;
 }
 
-#logo
-{
-    width:100%;
-    height: 250px;
-    position: absolute;
-    top:130px;
-    text-align: center;
-}
-
+*/
 .titreSection
 {
-	margin:0;
+    margin:0;
 }
 
 .sectionBlanche
 {
-    background-color: #FFF2B0;
+    background-color: #abf5d7;
     width:100%;
     height: 100%;
 }
 
 .sectionBleue
 {
-    background-color: #4565E5;
+    background-color: #868CEB;
     width:100%;
     height: 100%;
 }
 
 .sectionBlanche > h1
 {
-	color:#4565E5;
+    /* color:#4565E5;*/
 }
 
 .sectionBleue > h1
 {
-	color:#FFF2B0;
+    /*color:#FFF2B0;*/
 }	
 
 
 #situationActuelle
 {
-	
+
+}
+
+.titreSection
+{
+    width:100%;
 }
 
 #experiences
 {
-	background-color: #4565E5;
-	
+
+
 }
 
 #experiences > h1
 {
-	color:#F7F0DA;
+
 }
 
+#charts
+{
+
+
+
+}
+
+.progressBar
+{
+    margin-top: 2em;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 0.2em;
+    height: 30px;
+    width: 40%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+
+.progressBarInit
+{
+    opacity: 1;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: left;
+    color: black;
+    border-radius: 0.2em;
+    width: 1%;
+    height: 30px;
+    background-color: #abf5d7;
+    z-index: 2;
+    -webkit-transition: width 1s ease 1s;
+    transition: width 1s ease 1s;
+}
+
+#progressBarResult1
+{
+    width: 80%;
+}
+
+#progressBarResult2
+{
+    width: 60%;
+}
+
+#progressBarResult3
+{
+    width: 90%;
+}
+
+#progressBarResult4
+{
+    width: 60%;
+}
+
+#progressBarResult5
+{
+    width: 50%;
+}
+
+
+/* Interets*/
+
+#interestsContainer
+{
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    width: 70%;
+    bottom: 40%;
+}
+
+
+#interests .item
+{
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    width: 100px;
+    height: 100px;
+    display: block;
+    cursor: pointer;
+    background: #868CEB;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0.1em;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+#interests .item:hover{
+    background: blue;
+}
+
+
+
+/* Page contact */
+#formulaireEnvoiMail
+{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#footer
+{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    bottom: 0;
+}

@@ -18,10 +18,81 @@ $(".main").onepage_scroll({
 });
 */
 
-  $(document).ready(function(){
-      $(".pagePrincipale").onepage_scroll({
+
+
+$(document).ready(function(){
+    $(".mainPage").onepage_scroll({
         sectionContainer: "section",
         responsiveFallback: 600,
-        loop: true
-      });
+        animationTime: 700,
+        easing: "ease-in-out",
+        loop: false
+    });
+
+    $.each(
+        $(".onepage-pagination li") , function(i)
+        {
+            $(this).hover
+            (
+                function()
+                {
+                    $(this).find(".labelMenu").addClass("apparition");
+
+                }, function() {
+                    $(this).find(".labelMenu").removeClass("apparition");
+                }
+
+            )
+        }
+    );
+
+    $('#parallax .parallax-layer')
+    .parallax({
+        mouseport: jQuery('#parallax')
+    });
+
+
+    $('#downArrow').click(function(){$(".mainPage").moveTo(new Number(2))});
+
+
+
+
+
+
+    var owl = $("#interests");
+
+    owl.owlCarousel({
+        items : 4, //10 items above 1000px browser width
+        itemsDesktop : [1000,5], //5 items between 1000px and 901px
+        itemsDesktopSmall : [900,3], // betweem 900px and 601px
+        itemsTablet: [600,2], //2 items between 600 and 0
+        itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+    });
+
+    // Custom Navigation Events
+    $(".next").click(function(){
+        owl.trigger('owl.next');
+    });
+    $(".prev").click(function(){
+        owl.trigger('owl.prev');
+    });
+
+owl.trigger('owl.play',5000);
+
+
 });
+/*
+
+jQuery(document).ready(function(){
+    // Declare parallax on layers
+    jQuery('.parallax-layer').parallax({
+        mouseport: jQuery("#port")
+    });
+});*/
+/*
+jQuery(document).ready(function(){
+    jQuery('#parallax .parallax-layer')
+    .parallax({
+        mouseport: jQuery('#parallax')
+    });
+});*/

@@ -93,6 +93,7 @@
         paginationList = "";
 
     $.fn.transformPage = function(settings, pos, index) {
+
       if (typeof settings.beforeMove == 'function') settings.beforeMove(index);
 
       // Just a simple edit that makes use of modernizr to detect an IE8 browser and changes the transform method into
@@ -120,6 +121,8 @@
       $(this).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {
         if (typeof settings.afterMove == 'function') settings.afterMove(index);
       });
+
+        el.triggerScreenBehavior(index);
     }
 
     $.fn.moveDown = function() {
@@ -210,6 +213,22 @@
         }
         el.transformPage(settings, pos, page_index);
       }
+    }
+
+    $.fn.triggerScreenBehavior = function(page_index)
+    {
+        if(page_index == 4)
+        {
+            $(".progressBar[name=1] > .progressBarInit").attr("id","progressBarResult1");
+                $(".progressBar[name=2] > .progressBarInit").attr("id","progressBarResult2");
+                $(".progressBar[name=3] > .progressBarInit").attr("id","progressBarResult3");
+            $(".progressBar[name=4] > .progressBarInit").attr("id","progressBarResult4");
+                $(".progressBar[name=5] > .progressBarInit").attr("id","progressBarResult5");
+        }else{
+            $(".progressBar > .progressBarInit").removeAttr("id");
+        }
+
+
     }
 
     function responsive() {
@@ -305,7 +324,7 @@
 
 
       if(settings.pagination == true) {
-        paginationList += "<li><a data-index='"+(i+1)+"' href='#" + (i+1) + "'></a></li>"
+        paginationList += "<li><span class='emplacementMenu' ><span class='labelMenu'>"+$(this).attr('name')+"</span></span><a data-index='"+(i+1)+"' href='#" + (i+1) + "'></a></li>"
       }
     });
 
@@ -364,8 +383,8 @@
     }
 
     if(settings.pagination == true)  {
-      $(".onepage-pagination li a").click(function (){
-        var page_index = $(this).data("index");
+      $(".onepage-pagination li").click(function (){
+        var page_index = $(this).find("a").data("index");
         el.moveTo(page_index);
       });
     }
