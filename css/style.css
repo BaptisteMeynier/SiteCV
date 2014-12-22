@@ -367,18 +367,41 @@ background-color: #4565E5;
 
 /* Interets*/
 
-#interestsContainer
+.horizontalCenterContainer
 {
-    position: absolute;
+bottom:0;
     margin-left:auto;
     margin-right:auto;
     left:0;
     right:0;
-    width: 70%;
-    bottom: 40%;
+
 }
 
+.interet
+{
 
+opacity:1;
+/*text-align:center;
+vertical-align:middle;*/
+display: inline;
+
+}/*
+.interet > img
+{
+width:80%;
+height:80%;
+}*/
+
+.interestPicture
+{
+	background:black;
+	border-radius:50%;
+width:12.5em;
+height:12.5em;
+   opacity: 1;
+
+}
+/*
 #interests .item
 {
     margin-left:auto;
@@ -399,7 +422,7 @@ background-color: #4565E5;
 }
 #interests .item:hover{
     background: blue;
-}
+}*/
 
 
 

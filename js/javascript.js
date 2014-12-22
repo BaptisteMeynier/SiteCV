@@ -58,7 +58,7 @@ $(document).ready(function(){
 
 
 
-
+/*
     var owl = $("#interests");
 
     owl.owlCarousel({
@@ -77,7 +77,7 @@ $(document).ready(function(){
         owl.trigger('owl.prev');
     });
 
-owl.trigger('owl.play',5000);
+owl.trigger('owl.play',5000);*/
 
 
 });
