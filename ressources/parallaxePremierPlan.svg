@@ -12,7 +12,7 @@
    height="900"
    viewbox="0 0 1052 745"
    id="svg2"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="parallaxePremierPlan.svg">
   <metadata
      id="metadata16">
@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -67,29 +68,29 @@
      rx="24.243662"
      ry="27.274118"
      d="m 754.49014,455.12544 a 58.942917,58.942917 0 1 1 -117.88583,0 58.942917,58.942917 0 1 1 117.88583,0 z"
-     style="opacity:0.3;fill:#ffffff;display:inline;filter:url(#filter1)"
+     style="display:inline;opacity:0.3;fill:#ffffff;filter:url(#filter1)"
      type="arc"
-     transform="matrix(0.88541305,0,0,0.88541305,41.378752,48.021693)" />
+     transform="matrix(0.54158735,0,0,0.54158735,238.08157,195.25947)" />
   <path
      inkscape:connector-curvature="0"
      id="path10"
      type="arc"
-     style="opacity:0.2;fill:#ffffff;display:inline;filter:url(#filter1)"
+     style="display:inline;opacity:0.2;fill:#ffffff;filter:url(#filter1)"
      cx="288.90363"
      cy="273.3634"
      rx="24.243662"
      ry="27.274118"
      d="m 379.03311,733.24141 a 45.18722,45.187218 0 0 1 -90.37444,0 45.18722,45.187218 0 1 1 90.37444,0 z"
-     transform="matrix(0.88574164,0,0,0.88574164,-149.68371,0.78531678)" />
+     transform="matrix(0.54178834,0,0,0.54178834,228.54345,134.79822)" />
   <path
      inkscape:connector-curvature="0"
      id="path12"
-     transform="matrix(2.1800932,0,0,1.9378607,-352.78032,-281.85018)"
+     transform="matrix(1.3335142,0,0,1.185346,0.14006922,31.365569)"
      d="m 313.14729,273.3634 a 24.243665,27.274121 0 1 1 -48.48733,0 24.243665,27.274121 0 1 1 48.48733,0 z"
      ry="27.274118"
      rx="24.243662"
      cy="273.3634"
      cx="288.90363"
-     style="opacity:0.5;fill:#ffffff;display:inline;filter:url(#filter1)"
+     style="display:inline;opacity:0.5;fill:#ffffff;filter:url(#filter1)"
      type="arc" />
 </svg>

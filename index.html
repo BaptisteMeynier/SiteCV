@@ -1,149 +1,187 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//FR">
-<html>
-    <head>
-        <title>Baptiste Meynier</title>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Baptiste Meynier</title>
+		<meta name="description" content="Mon site web personnel hebergeant mon curriculum vitae" />
+		<meta name="keywords" content="Baptiste Meynier Developement java webdesign SS2I CV JEE entreprise professionel angularJS git oracle">
+		<meta name="author" content="Baptiste Meynier" />
 
-        <meta name="description" content="Baptiste Meynier CV" >
-        <meta name="keywords" content="Baptiste Meynier Developement java webdesign SS2I CV code php">
-        <meta name="author" content="Baptiste Meynier" >
+		<!-- JQuery -->
+		<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 
-        <!-- Inclusion Globale -->
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script src="js/modernizr.custom.js"></script>
+		<!-- Inclusions globales -->
+		<script type="text/javascript" src="js/global.js"></script>
+		<link href="css/global.css" rel="stylesheet" type="text/css">
 
-        <!-- Scrolling vertical-->
-        <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
-        <link rel='stylesheet' type='text/css' href='css/onepage-scroll.css' >
+		<!-- Jparallax -->
+		<script type="text/javascript" src="js/jquery.parallax.js"></script>
+		<link rel='stylesheet' type='text/css' href='css/jquery.parallax.css'>
 
-        <!-- Dot Navigation Style -->
-        <!--link rel='stylesheet' type='text/css' href='css/dotNavigationComponent.css' -->
+		<!-- menu -->
+		<script	src="js/jquery.smint.js" type="text/javascript" ></script>
+		<link href="css/menu.css" rel="stylesheet" type="text/css">
 
-        <!-- Jparallax -->
-        <script type="text/javascript" src="js/jquery.parallax.js"></script>
-        <link rel='stylesheet' type='text/css' href='css/jquery.parallax.css' >
+		<!-- graph competences -->
+		<script type="text/javascript" src="js/TweenMax.min.js"></script>
 
-        <!-- Navigation Horizontale -->
-        <link rel="stylesheet" type="text/css" href="css/navigationComponent.css" />
+		<!-- Formulaire d envoi de mail -->
+		<link rel="stylesheet" type="text/css" href="css/formComponent.css" />
+
+	</head>
+	<body>
+		<div class="wrap" >
+			<div class="section sTop">
+				<div class="inner">
+					<div  id="head" >
+						<img id="filtre" class="filtre" src="ressources/filtreNoir.svg" alt="" />
+						<div id="accueil" >
+							<div id="top"></div>
+							<img id="banniereCurriculumVitae" src="ressources/banniereCurriculumVitae.svg" alt="Banniere Curriculum Vitae." />
+						    <img id="logoSite" class="horizontalCenterContainer" src="ressources/logoSite.svg" alt="Logo Baptiste Meynier Curriculum Vitae." />
+						    <img id="posteOccupe" class="horizontalCenterContainer" src="ressources/posteOccupe.svg" alt="Poste occupe" />
+
+						    <!-- Parallax -->
+						    <div class="parallax-viewport" id="parallax" >
+							    <div class="parallax-layer horizontalCenterContainer" id="parallaxeTroisiemePlan" style="width: 98%; height: 98%; top: 0px">
+							    	<img src="ressources/parallaxeTroisiemePlan.svg" style="width: 100%;position:relative" alt="" />
+							    </div>
+							    <div class="parallax-layer horizontalCenterContainer" style="width: 96%; height: 96%; top: 0px">
+							        <img src="ressources/parallaxeSecondPlan.svg" style="width: 100%;position:relative" alt="" />
+							    </div>
+							    <div class="parallax-layer horizontalCenterContainer"
+							                style="width: 92%; height: 92%; top: 0px; z-index: 3;">
+							        <img src="ressources/parallaxePremierPlan.svg" style="width: 100%;position:relative" alt="" />
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+<!--div class="subMenu col-2 ss-style-triangles" style='background:url(./ressources/menuHaut.svg) no-repeat' background-position: 30% 20%;-->
+				<div id='menu' class="subMenu col-2 ss-style-triangles" >
+				 	<div id='sousMenu' class="inner" >
+				 		<a href="#sTop" class="subNavBtn">Accueil</a>
+				 		<a href="#sSituationActuelle" class="subNavBtn">Qui suis-je ?</a>
+						<a href="#sExperiences" class="subNavBtn">Expériences</a>
+						<a href="#sCompetences" class="subNavBtn">Compétences</a>
+						<a href="#sInterets" class="subNavBtn">Intérêts</a>
+						<a href="#sContacts" class="subNavBtn end">Contactez moi !</a>
+
+					</div>
+					<img src="ressources/menu.svg" style="width: 100%;position:relative;margin-top:-92px;z-index:2" alt="" />
+
+				</div>
 
 
-        <!-- Formulaire d envoi de mail -->
-        <link rel="stylesheet" type="text/css" href="css/formDefault.css" />
-        <link rel="stylesheet" type="text/css" href="css/formComponent.css" />
 
-        <!-- Boutons -->
-        <link rel="stylesheet" type="text/css" href="css/buttonDefault.css" />
-        <link rel="stylesheet" type="text/css" href="css/buttonComponent.css" />
+		<div id="situationActuelle" class="section sSituationActuelle couleur1" >
+			<div  class="inner">
+				<object id='fondProfil' class='profil horizontalCenterContainer' data='ressources/fondProfil.svg'  type='image/svg+xml'></object>
 
-        <!-- Down Arrow -->
-        <link rel=stylesheet type="text/css" href="css/downArrow.css"/>
+            	<object id='agePicture' class='horizontalCenterContainer profil' data='ressources/age.svg'  type='image/svg+xml' style=""></object>
 
-        <!-- creative links -->
-        <link rel=stylesheet type="text/css" href="css/creativeLinkComponent.css"/>
+            	<object id='formationPicture' class='profil horizontalCenterContainer' data='ressources/formation.svg'  type='image/svg+xml'></object>
+            	<object id='localisationPicture' class='profil horizontalCenterContainer' data='ressources/localisation.svg'  type='image/svg+xml'></object>
+            	<object id='experiencesPicture' class='profil horizontalCenterContainer' data='ressources/experiences.svg'  type='image/svg+xml'></object>
+            	<object id='companiePicture' class='profil horizontalCenterContainer' data='ressources/companie.svg'  type='image/svg+xml'></object>
 
-        <!-- Carousselle -->
-        <!--script type="text/javascript" src="js/owl.carousel.min.js"></script>
-        <link href="css/owl.carousel.css" rel="stylesheet">
-        <link href="css/owl.theme.css" rel="stylesheet"-->
-        <!-- Implementation perso -->
-        <link rel=stylesheet type="text/css" href="css/style.css"/>
-        <script type="text/javascript" src="js/javascript.js"></script>
+            	<object id='profilAnimation' class='profil horizontalCenterContainer' data='ressources/profilAnimation.svg'  type='image/svg+xml'></object>
 
-    </head>
-    <body>
-        <div class="mainPage">
-            <section  id="accueil" name="Accueil">
-                <div id="top"> </div>
-                <img id="banniereCurriculumVitae" src="ressources/banniereCurriculumVitae.svg" alt="Banniere Curriculum Vitae." />
-                <img  id="logoSite"src="ressources/logoSite.svg" alt="Logo Baptiste Meynier Curriculum Vitae." />
-                <img id="posteOccupe" src="ressources/posteOccupe.svg" alt="Poste occupe" />
-                <!--img id="arrowDown" src="ressources/arrowDown.svg" alt="Down" /-->
-                <div id="downArrow" class="">
-                    <img id="arrow1" src="ressources/downArrow3.svg" class="clignote1" alt="Down" />
-                    <img id="arrow2" src="ressources/downArrow3.svg" class="clignote2"alt="Down" />
-                    <img id="arrow3" src="ressources/downArrow3.svg" class="clignote3" alt="Down" />
-                </div>
-                <!-- Parallax -->
-                <div class="parallax-viewport" id="parallax">
-                    <div class="parallax-layer" style="width:95%; height:95%;top:0px">
-                        <img src="ressources/parallaxeTroisiemePlan.svg" alt="" />
-                    </div>
-                    <div class="parallax-layer" style="width:80%; height:90%;top:0px">
-                        <img src="ressources/parallaxeSecondPlan.svg" alt=""  />
-                    </div>
-                    <div class="parallax-layer" style="width:70%; height:85%;top:0px;z-index: 3;">
-                        <img src="ressources/parallaxePremierPlan.svg" alt="" />
-                    </div>
-                </div>
-            </section>
-            <section id="situationActuelle" class="sectionBleue" name="Qui suis-je ?">
-                <img class="titreSection" src="ressources/titreSectionPresentation.svg" alt="Qui suis-je ?" />
+            	<object id='profilComment' class='profil horizontalCenterContainer' data='ressources/profilComments.svg'  type='image/svg+xml'></object>
+			</div>
+		</div>
 
-                <!--img height="70%" width="70%" src="ressources/loiret.svg" alt="Forme du Loiret" /-->
-                <!--img id="tourEiffel" height="60%"  src="ressources/eiffel_tower.svg" alt="Paris" />
-<span style="    font-size: 120px">+</span>
-<img id="employeur"  width="25%" src="ressources/experisIT.svg" alt="employeur" /-->
-                <img id="profil" src="ressources/profil.svg" alt="" />
-            </section>
-            <section id="experiences color-1" class="sectionBlanche" name="Exp&eacute;riences">
-                <img class="titreSection" src="ressources/titreSectionExperiences.svg" alt="Exp&eacute;riences" />
-                <h2>La Poste Courrier</h2>
+		<div id="experiences" class="section sExperiences couleur2">
+			<div class="inner">
 
-            </section>
+			</div>
+		</div>
 
-            </section>
-        <section id="competences" class="sectionBleue" name="Comp&eacute;tences">
-            <img class="titreSection" src="ressources/titreSectionCompetences.svg" alt="Competences" />
-            <nav class="cl-effect-21">
-                <a href="#" data-hover="FrameWorks J2EE"><span>FrameWorks J2EE</span></a>
-                <a href="#" data-hover="FrameWorks Javascript"><span>FrameWorks Javascript</span></a>
-                <a href="#" data-hover="Assemblage"><span>Outils</span></a>
-                <a href="#" data-hover="Palimpsest"><span>Serveurs d'applications</span></a>
-                <a href="#" data-hover="Assemblage"><span>Bases de donn&eacute;es</span></a>
-            </nav>
-            <div id="charts">
-                <div class="progressBar" name="1"><div  class="progressBarInit" >Struts</div></div>
+		<div class="section sCompetences couleur1">
+			<div class="inner">
+				<div class="skills_softwares">
+		            <div class="row"></div>
+		            <div class="row"></div>
+		            <div class="row"></div>
+		            <div class="row"></div>
+		            <div class="row"></div>
+		            <div class="columns"></div>
+		        </div>
+		        <nav id="buttonsSkillsBar" class="cl-effect-21">
+		        	<div id="boutonJ2EE" href="#" data-hover="FRAMEWORKS J2EE">
+		        		<span>FrameWorks J2EE</span>
+		        	</div>
+		        	<div href="#" data-hover="FRAMEWORKS JAVASCRIPT">
+		        		<span>FrameWorks Javascript</span>
+		        	</div>
+		        	<div href="#" data-hover="OUTILS">
+		        		<span>Outils</span>
+		        	</div>
+		        	<div  href="#" data-hover="SERVEURS">
+		        		<span>Serveurs d'applications</span>
+		        	</div>
+		        	<div href="#" data-hover="BASES DE DONNEES">
+		        		<span>Bases de donn&eacute;es</span>
+		        	</div>
+		        </nav>
+			</div>
+		</div>
+		<div id="interets" class="section sInterets">
+			<div class="inner"  style="width: 100%;height:100%;padding-top: 0px;padding-bottom: 0px;">
+				<div class="couleur1" style="width: 100%;height: 200px;">
+				</div>
+				<div style="background-color: white; height:8px">
+				</div>
+				<div id="interets" class="couleur2" style="height: 600px;text-align:center">
 
-                <div class="progressBar" name="2"><div class="progressBarInit" >GWT</div></div>
+					<div id="interet1" class="interet">
+			            <!--img src="ressources/travelInterest.svg" class="hi-icon hi-icon-archive hi-icon-earth" alt="" /-->
+			            <object id="travelInterest" data='ressources/logoTravel.svg'  type='image/svg+xml'></object>
+			            <div>VOYAGE</div>
+			            <span>BLABLA BLABLABLA BLABLA BLABLA BLABLABLABLA BLABLABL
+			                ABLAB LABLABLA BLABLAB LABLABLABLABLA BLABLAB LABLA BLABLABL ABLAB
+			                LABLABL ABLABL ABLABLABLABLAB LABLA BLAB LABLABLABLABLA BLA BLABLAB
+			                LABLABL ABLABLABALBALBAL Allemagne, Hongrie, Espagne, République
+			                Tchèque, Suisse </span>
+			        </div>
+			        <div id="interet2" class="interet">
 
-                <div class="progressBar" name="3"><div  class="progressBarInit">JSF 2</div></div>
+			            <object id="tennisInterest" data='ressources/logoTennis.svg'  type='image/svg+xml'></object>
+			            <div>TENNIS</div>
+			            <span>BLABLA BLABLABLA BLABLA BLABLA BLABLABLABLA BLABLABL
+			                ABLAB LABLABLA BLABLAB LABLABLABLABLA BLABLAB LABLA BLABLABL ABLAB
+			                LABLABL ABLABL ABLABLABLABLAB LABLA BLAB LABLABLABLABLA BLA BLABLAB
+			                LABLABL ABLABLABALBALBAL Allemagne, Hongrie, Espagne, République
+			                Tchèque, Suisse </span>
+			        </div>
+			        <div id="interet3" class="interet">
+			            <object id="artInterest" data='ressources/logoArt.svg'  type='image/svg+xml'></object>
+			            <div>ART</div>
+			            <span>BLABLA BLABLABLA BLABLA BLABLA BLABLABLABLA BLABLABL
+			                ABLAB LABLABLA BLABLAB LABLABLABLABLA BLABLAB LABLA BLABLABL ABLAB
+			                LABLABL ABLABL ABLABLABLABLAB LABLA BLAB LABLABLABLABLA BLA BLABLAB
+			                LABLABL ABLABLABALBALBAL Allemagne, Hongrie, Espagne, République
+			                Tchèque, Suisse </span>
+			        </div>
+				</div>
+			</div>
+		</div>
 
-                <div class="progressBar" name="4"><div  class="progressBarInit">Spring MVC</div></div>
-
-                <div class="progressBar" name="5"><div  class="progressBarInit" >AngularJs</div></div>
-            </div>
-        </section>
-        <section id="interets" class="sectionBlanche" name="Int&eacute;r&ecirc;ts">
-            <img class="titreSection" src="ressources/titreSectionInterets.svg" alt="Int&ea cute;r&ecirc;ts" />
-<div class="horizontalCenterContainer">
-           	<div class="interet"> 
-<img class="interestPicture" src="ressources/brush.svg" alt="" />
-<img  class="interestPicture"src="ressources/rocket.svg" alt="" />
-<img class="interestPicture" src="ressources/brush.svg" alt="" />
-</div>TENNIS/ART/VOYAGE
-
-</div>
-        </section>
-        <section id="contacts" class="sectionBleue" name="Contacts">
-            <img class="titreSection" src="ressources/titreSectionContact.svg" alt="Contactez moi !" />
-            <div id="formulaireEnvoiMail">
-                <form id="formulaireEnvoiMail" class="cbp-mc-form">
-                    <input type="text" id="email" name="email" placeholder="Votre adresse mail">
-                    <br>
-                    <textarea id="comments" name="comments" placeholder="Votre message"></textarea>
-                    <!--div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Envoyer courriel" /></div-->
-                    <div class="container">
-                        <div class="leBouton">
-                            <p>
-                                <button class="btn btn-1 btn-1e" value="Envoyer courriel">Envoyer courriel</button>
-                            </p>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div id="footer" class="sectionBlanche">
-            </div>
-        </section>
-
-        </div>
-    </body>
+		<div class="section sContacts couleur1">
+			<div class="inner">
+				<div id="formulaireEnvoiMail">
+            		<div id="formulaireEnvoiMail" class="cbp-mc-form">
+                 		<input type="text" id="email" name="email" placeholder="Votre adresse mail"> <br>
+                		<textarea id="comments" name="comments" style="resize: none;" placeholder="Votre message"></textarea>
+                        <button class="btn btn-1 btn-1e" value="Envoyer courriel">Envoyer courriel</button>
+            		</div>
+        		</div>
+			</div>
+		</div>
+		</div>
+	</body>
 </html>

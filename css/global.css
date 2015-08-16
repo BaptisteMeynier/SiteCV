@@ -1,0 +1,428 @@
+
+/***************************/
+/**********GLOBAL***********/
+/***************************/
+.couleur1
+{
+    background-color: #868CEB;
+}
+
+.couleur2
+{
+    background-color: #abf5d7;
+}
+
+.horizontalCenterContainer
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+/***************************/
+/**********ACCUEIL**********/
+/***************************/
+
+#head
+{
+	background-color: #9EB8EC;
+	height: 100%;
+    position: fixed;
+    background-attachment: fixed;
+    top:0px;
+    left:0px;
+}
+
+#top {
+    width: 100%;
+    height: 5px;
+    background-color: #4565E5;
+}
+
+#banniereCurriculumVitae {
+    position: absolute;
+    z-index: 1;
+    top: 8%;
+    left: 0;
+    width: 100%;
+}
+
+#logoSite
+{
+    z-index: 2;
+    top: 18%;
+    width: 15%;
+}
+
+#posteOccupe {
+    z-index: 1;
+    top: 55%;
+    width: 25%;
+}
+
+#filtre
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top:0px;
+    left: 0px;
+}
+
+/* Common style for pseudo-elements */
+/*.subMenu::before,*/
+.subMenu::after {
+    position: absolute;
+    content: '';
+    pointer-events: none;
+    z-index: -1;
+}
+
+.ss-style-triangles::before,
+.ss-style-triangles::after {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.ss-style-triangles::before {
+    top: -50px;
+    z-index: 0;
+    background: #9EB8EC;
+}
+
+.ss-style-triangles::after {
+    bottom: -50px;
+    z-index: 0;
+    background: inherit;
+}
+
+/***************************/
+/********QUI SUIS JE********/
+/***************************/
+#situationActuelle
+{
+    height: 3400px;
+}
+
+#situationActuelle .inner
+{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+}
+
+.profil
+{
+    height: 700px;
+    top: 200px;
+    z-index: 2;
+}
+
+.logoAnimation
+{
+    height: 350px;
+}
+
+
+/***************************/
+/********COMPETENCES********/
+/***************************/
+
+.skills_softwares {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.skills_softwares>.row {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.skills_softwares>.columns {
+    top: 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+}
+
+.skills_softwares>.columns>.col {
+    width: 150px;
+    height: 290px;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.row>*,.col {
+    display: table-cell;
+}
+
+.skills_softwares>.columns>.col>div {
+    border-radius: 2.5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px; /*largeur de la colonne*/
+    height: 0;
+    background-color: #abf5d7;
+    position: absolute;
+    bottom: 50px;
+}
+
+.skills_softwares>.columns>.col>h1 {
+    font-size: 16px;
+    font-size: 10;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: -10px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    opacity: 0;
+}
+
+/**********BOUTONS**********/
+#buttonsSkillsBar {
+    position:absolute;
+    bottom: -400px;
+    text-align:center
+}
+
+nav div {
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 0.8em;
+}
+
+nav div:hover,
+nav div:focus {
+    outline: none;
+}
+
+
+.cl-effect-21 div {
+    padding: 10px;
+    color: #6D5E8C;
+    font-weight: 700;
+    text-shadow: none;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.cl-effect-21 div::before,
+.cl-effect-21 div::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.cl-effect-21 div::before {
+    top: 0;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.cl-effect-21 div::after {
+    bottom: 0;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.cl-effect-21 div:hover,
+.cl-effect-21 div:focus {
+    color: #fff;
+}
+
+.cl-effect-21 div:hover::before,
+.cl-effect-21 div:focus::before,
+.cl-effect-21 div:hover::after,
+.cl-effect-21 div:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+/***************************/
+/**********Interets**********/
+/***************************/
+#interets
+{
+height: 750px;
+}
+
+.interet {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.interet > object
+{
+    height:200px;
+    margin-top:-100px;
+}
+
+.interet>span {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.interet > div {
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom:20px;
+}
+
+
+/***************************/
+/**********CONTACT**********/
+/***************************/
+#formulaireEnvoiMail {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align:center
+}
+
+/**********BOUTON**********/
+*:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-1 {
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.btn:before
+ {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+.btn-1e {
+    overflow: hidden;
+}
+
+.btn-1e:after {
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.btn-1e:hover,
+.btn-1e:active {
+    color: #0e83cd;
+}
+
+.btn-1e:hover:after {
+    height: 260%;
+    opacity: 1;
+}
+
+.btn-1e:active:after {
+    height: 400%;
+    opacity: 1;
+}
+
+#footer {
+    background-color: white;
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    bottom: 0;
+}

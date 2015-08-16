@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 1771.6534 1771.6534"
+   id="svg5145"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="companie.svg">
+  <defs
+     id="defs5147">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath30-3">
+      <path
+         d="M 187.388,20.417 652.436,20.417 652.436,579.64 187.388,579.64 187.388,20.417 Z"
+         id="path32-7"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.20874106"
+     inkscape:cx="-765.02908"
+     inkscape:cy="1488.554"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg5145"
+     showgrid="false"
+     units="mm"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="834"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5150">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g4140"
+     transform="translate(-1104.1778,1283.1903)">
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path7767"
+       d="M 1276.5084,-887.16525 1383.8155,-776.82801 1277.2527,-665.00225"
+       style="fill:none;fill-rule:evenodd;stroke:#868ceb;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7771"
+       d="M 1443.0125,-833.89053 1497.3439,-886.73341"
+       style="fill:none;fill-rule:evenodd;stroke:#868ceb;stroke-width:70;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7771-0"
+       d="M 1442.6404,-717.84981 1496.9718,-665.00694"
+       style="fill:none;fill-rule:evenodd;stroke:#868ceb;stroke-width:70;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="1273.3597"
+       y="-553.25665"
+       font-size="80"
+       letter-spacing="3"
+       id="text23"
+       style="font-size:80px;font-family:Onyx;letter-spacing:3;fill:#868ceb;stroke:none">Experis IT</text>
+    <text
+       x="1276.3597"
+       y="-508.25668"
+       font-size="34"
+       letter-spacing="4.5"
+       id="text25"
+       style="font-size:34px;font-family:Onyx;letter-spacing:4.5;fill:#868ceb;stroke:none"><tspan
+   style="letter-spacing:6.7733326px"
+   id="tspan4221">ManpowerGrou</tspan>
+p</text>
+  </g>
+</svg>
